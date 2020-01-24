@@ -1,15 +1,65 @@
  <!DOCTYPE html>
  <html>
  <head>
- 	<title>Eve Ellen's Web Development Sandbox</title>
+ 	<title>Web Development Sandbox</title>
 	<style>
-		body {background-color:lightgray}
+		body {background-color:lightblue}
 		h1 {color:blue}
+		h2 {color:red}
 		p {color:green}
 		</style>
  </head>
  <body>
- 	<h1>Eve Ellen's</h1>
-	<h1> Web Development Sandbox</h1>
+ 	<div id="heading">
+		<h1> Web Development Sandbox</h1>
+	</div>
+	<div id="gitCommands">
+		<h2>Git Commands</h2>
+		<ul>
+			<li>git init</li>
+			<li>git clone site-link</li>
+			<li>git status</li>
+			<li>git add filename</li>
+			<li>git commit -m "some message"</li>
+			<li>git push</li>
+			<li>git pull</li>
+			<li>git restore</li>
+		</ul>
+	</div>
+	<div id="browser-syncCommands">
+		<h2>Browser-sync</h2>
+		<ul>
+			<li>browser-sync start --server --directory --files "*"</li>
+		</ul>
+	</div>
+	<div id="notes">
+		<h3>Block-Level Elements (Flow Content)</h3>
+		<ul>Non-Semantic Elements
+			<li>div</li>
+		</ul>
+		<ul>Semantic Elements
+			<li>header</li>
+			<li>nav</li>
+			<li>section</li>
+			<li>article</li>
+			<li>aside</li>
+			<li>footer</li>
+		</ul>
+		<h3>Inline Elements (Phrasing Content)</h3>
+		<ul>
+			<li>span</li>
+		</ul>
+		<h3>HTML Entities</h3>
+		<p>
+			Always escape less than (&lt;), greater than (&gt;), and ampersands (&), as they are reserved characters in HTML.  Character entities are used to display reserved characters in HTML.  The following is a list of some common entity references.
+		</p>
+		<ul>
+			<li>&amp;lt; for less than (&lt;)</li>
+			<li>&amp;gt; for greater than (&gt;)</li>
+			<li>&amp;amp; for the ampersand (&amp;)</li>
+			<li>&amp;nbsp; for a non-breaking space </li>
+		</ul>
+
+	</div>
  </body>
  </html>
